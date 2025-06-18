@@ -9,6 +9,8 @@ import React, { useState, useEffect } from 'react';
  *   In production, proxy requests through a secure backend. 
  *   For demo/personal/limited public quota use, controlled exposure is acceptable.
  */
+// To reference the public URL, use: const publicUrl = process.env.PUBLIC_URL;
+
 function TrendingVideos() {
   const [videos, setVideos] = useState([]);
   const [loading, setLoading] = useState(true);

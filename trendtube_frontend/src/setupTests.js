@@ -1,3 +1,7 @@
+/**
+ * If you need PUBLIC_URL, use process.env.PUBLIC_URL. Avoid bare PUBLIC_URL anywhere.
+ */
+
 // jest-dom adds custom jest matchers for asserting on DOM nodes.
 // allows you to do things like:
 // expect(element).toHaveTextContent(/react/i)

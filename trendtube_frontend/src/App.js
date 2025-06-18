@@ -2,6 +2,9 @@ import React from 'react';
 import './App.css';
 import TrendingVideos from './TrendingVideos';
 
+// Ensure PUBLIC_URL is accessed correctly in React.
+// If you need a reference, use: const publicUrl = process.env.PUBLIC_URL;
+
 // PUBLIC_INTERFACE
 function App() {
   return (
